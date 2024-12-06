@@ -1,0 +1,6 @@
+name = "GinvLabRegistry"
+uuid = "01251907-5da5-4648-88a5-e27f7a11fa45"
+repo = "git@github.com:GinvLab/GinvLabRegistry"
+description = "G⁻¹Lab Julia registry"
+
+[packages]
