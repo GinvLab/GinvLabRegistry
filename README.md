@@ -11,15 +11,15 @@ pkg> registry add https://github.com/Ginvlab/GinvLabRegistry
 
 ## Register a package
 
-Example with the package "GeoPolygons". First "GeoPolygons" **must live in a git working copy, e.g. having been cloned by Pkg.develop**, so that it appears in the `Pkg.status()` list. To register it using `LocalRegistry`, do 
+Example with the package "MyPackage". First "MyPackage" **must live in a git working copy, e.g. having been cloned by Pkg.develop**, so that it appears in the `Pkg.status()` list. To register it using `LocalRegistry`, do 
 ```
 using LocalRegistry
-register("GeoPolygons", registry="LOCAL/PATH/TO/GinvLabRegistry/", repo="https://github.com/GinvLab/GeoPolygons.jl")
+register("MyPackage", registry="LOCAL/PATH/TO/GinvLabRegistry/", repo="https://github.com/GinvLab/MyPackage.jl")
 ```
 
 If the push phase fails, one can try 
 ```
-register("GeoPolygons", registry="LOCAL/PATH/TO/GinvLabRegistry/", repo="https://github.com/GinvLab/GeoPolygons.jl", push=false)
+register("MyPackage", registry="LOCAL/PATH/TO/GinvLabRegistry/", repo="https://github.com/GinvLab/MyPackage.jl", push=false)
 ```
 and then perform the push from the local git repo containing the updated register.
 
@@ -28,5 +28,5 @@ and then perform the push from the local git repo containing the updated registe
 Similar to registering a package:
 ```
 using LocalRegistry
-register("GeoPolygons", registry="LOCAL/PATH/TO/GinvLabRegistry/")
+register("MyPackage", registry="LOCAL/PATH/TO/GinvLabRegistry/")
 ```
