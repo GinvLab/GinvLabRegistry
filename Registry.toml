@@ -4,4 +4,4 @@ repo = "git@github.com:GinvLab/GinvLabRegistry"
 description = "G⁻¹Lab Julia registry"
 
 [packages]
-64ff6778-433b-4901-a403-25308785a0c4 = { name = "InverseAlgos", path = "I/InverseAlgos" }
+
