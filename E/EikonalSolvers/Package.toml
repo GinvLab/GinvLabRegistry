@@ -1,3 +1,3 @@
 name = "EikonalSolvers"
 uuid = "0631ba50-6b23-11e9-3fc3-378508ba069a"
-repo = "https://gitlab.com/JuliaGeoph/EikonalSolvers.jl"
+repo = "https://github.com/GinvLab/EikonalSolvers.jl"
