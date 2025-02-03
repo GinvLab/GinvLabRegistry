@@ -1,0 +1,3 @@
+name = "SeismicWaves"
+uuid = "f2cc81fa-a164-11e9-3f65-e3f851c759e3"
+repo = "https://github.com/GinvLab/SeismicWaves.jl"
