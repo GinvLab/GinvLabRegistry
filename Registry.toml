@@ -4,5 +4,4 @@ repo = "git@github.com:GinvLab/GinvLabRegistry"
 description = "G⁻¹Lab Julia registry"
 
 [packages]
-0631ba50-6b23-11e9-3fc3-378508ba069a = { name = "EikonalSolvers", path = "E/EikonalSolvers" }
 5ad9ae14-893c-4be5-bc0a-7005514a6e19 = { name = "MagGravPoly", path = "M/MagGravPoly" }
